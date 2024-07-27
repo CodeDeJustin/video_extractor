@@ -6,6 +6,7 @@ import shutil
 import re
 from colorama import init, Fore, Style
 
+
 # INITIALISATION DE COLORAMA
 init(autoreset=True)
 

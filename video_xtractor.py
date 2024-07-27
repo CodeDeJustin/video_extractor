@@ -1,6 +1,7 @@
 from colorama import init, Fore, Style
 from video_xtractor_def import get_video_url_from_user, download_video
 
+
 # INITIALISATION DE COLORAMA
 init(autoreset=True)
 
