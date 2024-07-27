@@ -2,3 +2,4 @@
 *.spec linguist-language=Python
 *.md linguist-language=Markdown
 *.ico linguist-language=Binary
+*.html linguist-detectable=false
