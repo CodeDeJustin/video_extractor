@@ -6,7 +6,6 @@ import shutil
 import re
 from colorama import init, Fore, Style
 
-
 # INITIALISATION DE COLORAMA
 init(autoreset=True)
 
@@ -14,7 +13,8 @@ BASE_SITES = (
     "https://www.youtube.com",
     "https://www.tiktok.com",
     "https://www.instagram.com",
-    "https://www.twitch.tv"
+    "https://www.twitch.tv",
+    "https://www.dailymotion.com"
 )
 
 # RÉCUPÉRER L'OUTIL DE TRAITEMENT DES FICHIERS MULTIMEDIA
