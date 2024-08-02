@@ -12,7 +12,7 @@ block_cipher = None
 
 a = Analysis(
     ['video_xtractor.py'],
-    pathex=['D:\\OneDrive\\SITE_WEB\\video_xtractor'],
+    pathex=['C:\\VotreDossier\\VotreSousDossier\\video_xtractor'],
     binaries=[],
     datas=[('ffmpeg/bin', 'ffmpeg/bin')],
     hiddenimports=['yt_dlp', 'colorama'],
