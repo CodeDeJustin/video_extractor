@@ -3,9 +3,12 @@ Visitez mon site web : justinallard.ca
 
 Générer le fichier .spec :
 Utilisez la commande suivante pour générer le fichier .spec de base:
+
 TERMINAL OU POWERSHELL→→→ pyinstaller --onefile --icon=snake.ico video_xtractor.py
 
 Puis vous devez inclure le dossier ffmpeg à l'intérieur du fichier spec:
+
+
 # -*- mode: python ; coding: utf-8 -*-
 
 block_cipher = None
@@ -49,6 +52,7 @@ exe = EXE(
 
 
 Pour créer un fichier exécutable de ce projet (construction de l'exécutable), veuillez, dans le terminal du projet, à l'emplacement du programme, écrire la ligne de commande suivante:
+
 TERMINAL OU POWERSHELL→→→ pyinstaller video_xtractor.spec
 
 
